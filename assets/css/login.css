@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url('/assets/images/blur-book-stack-books-bookshelves-590493.jpg') no-repeat;
+    background-size: cover;
+}
+
+.loginAndRegBox {
+    position: fixed;
+    width: 600px;
+    height: 500px;
+    background-color: rgba(255, 255, 255);
+    /* opacity: .8; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.titlebox {
+    width: 100%;
+    height: 80px;
+    background: url('/assets/images/login_title.png') no-repeat center;
+}
+
+.login-box {
+    padding: 20px;
+}
+
+.reg-box {
+    padding: 20px;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reg-box {
+    display: none;
+}
+
+.layui-input {
+    padding-left: 30px!important;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
