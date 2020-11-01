@@ -46,6 +46,7 @@ $(function() {
             }
             console.log(res.token);
             layer.msg("登录成功！");
+            localStorage.setItem("token", res.token);
             // 跳转到后台主页
             location.href = '/index.html';
         })
